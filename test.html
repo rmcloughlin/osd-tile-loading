@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Test</title>
+        <!--<script src="openseadragon.min.js"></script>-->
+        <script src="https://cdn.jsdelivr.net/npm/openseadragon@2.2/build/openseadragon/openseadragon.min.js"></script>
+    </head>
+    <body>
+        <div id="osd" style="width:1024px; height:768px"></div>
+        <script type="text/javascript">
+                var viewer = OpenSeadragon({
+                    id: "osd",
+                    tileSources: "254.dzi",
+                    //tileSources: "500.dzi",
+                    showNavigationControl: false
+                });
+        </script>
+    </body>
+</html>
+
